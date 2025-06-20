@@ -1,0 +1,44 @@
+----------------------------------------------------
+| Opcode | Mnemonic | Description                  |
+| ------ | -------- | ---------------------------- |
+| `00`   | ADD      | Add                          |
+| `01`   | SUB      | Subtract                     |
+| `02`   | AND      | Bitwise AND                  |
+| `03`   | OR       | Bitwise OR                   |
+| `04`   | INC      | Increment                    |
+| `05`   | DEC      | Decrement                    |
+| `06`   | CMP      | Compare                      |
+| `07`   | NOP      | No operation                 |
+| `08`   | MOV      | Register to register move    |
+| `09`   | MVI      | Move immediate to register   |
+| `0A`   | LOD      | Load from memory to register |
+| `0B`   | STR      | Store register to memory     |
+| `0C`   | JZ       | Jump if zero                 |
+| `0D`   | JN       | Jump if negative             |
+| `0E`   | JMP      | Unconditional jump           |
+| `0F`   | HLT      | Halt                         |
+----------------------------------------------------
+
+09100005   // MVI R1, 5        ; R1 = 5
+09200006   // MVI R2, 6        ; R2 = 6
+09300045   // MVI R3, 45       ; R3 = 45
+09400033   // MVI R4, 33       ; R4 = 33
+
+0B100020   // STR R1, [0x20]   ; Mem[0x20] = R1
+0B200021   // STR R2, [0x21]   ; Mem[0x21] = R2
+0B300022   // STR R3, [0x22]   ; Mem[0x22] = R3
+0B400023   // STR R4, [0x23]   ; Mem[0x23] = R4
+
+05100000   // DEC R1           ; R1 = R1 - 1
+05200000   // DEC R2           ; R2 = R2 - 1
+05300000   // DEC R3           ; R3 = R3 - 1
+05400000   // DEC R4           ; R4 = R4 - 1
+
+0A100021   // LOD R1, [0x21]   ; R1 = Mem[0x21]
+0E000009   // JMP 0x09         ; Unconditional jump to address 0x09
+
+04100000   // INC R1           ; R1 = R1 + 1
+
+00120000   // ADD R1, R2       ; R1 = R1 + R2
+01310000   // SUB R3, R1       ; R3 = R3 - R1
+02450000   // AND R4, R5       ; R4 = R4 & R5
