@@ -1,4 +1,4 @@
-# 🖥️ 8-Bit Custom CPU
+# 🖥️ 32-Bit Custom CPU
 
 This project implements a custom 8-bit CPU with a **29-bit data bus** and a **32-bit instruction format**, built using [Logisim Evolution](https://github.com/reds-heig/logisim-evolution). It features a compact yet expressive instruction set and integrates core computing capabilities such as ALU operations, memory access, and control flow.
 
