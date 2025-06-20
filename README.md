@@ -118,6 +118,12 @@ Each 32-bit instruction is structured as:<br>
 
 For questions or suggestions, please open an issue or submit a pull request.
 
----
+## 🧠 Meet Our Team (Group No. 04)
 
-🧠 *Built for education, experimentation, and fun in computer architecture!*  
+| Name                      | Email                        | Reg. No        | Session    |
+|---------------------------|------------------------------|----------------|------------|
+| **Rayhanul Amin Tanvir** | rayhanulamint2@gmail.com     | 2020331002     | 2020-21    |
+| **Md Rezaul Karim Sumon**| rezaul0818@gmail.com         | 2020331029     | 2020-21    |
+| **Mohammad Ridowan Sikder** | ridowan.cse@gmail.com     | 2020331043     | 2020-21    |
+| **Khalid Bin Selim**      | khalid44@student.sust.edu    | 2020331044     | 2020-21    |
+| **Gazi Mujtaba Rafid**    | rafidjess13@gmail.com        | 2020331051     | 2020-21    |
